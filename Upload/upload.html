@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <title>Upload eBook - JusteBook</title>
+</head>
+<style>
+    #mycontainer {
+        margin-top: 60px;
+    }
+</style>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center" id="mycontainer">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Upload eBook</h5>
+                <p class="card-text">
+                <form action="" method="post">
+                    <input type="file" class="form-control mb-3" placeholder="Choose File" required>
+                    <input type="text" class="form-control mb-3" placeholder="eBook Name" required>
+                    <input type="text" class="form-control mb-3" placeholder="Author name" required>
+                    <input type="number" class="form-control mb-3" placeholder="Choose Amount ($)" required>
+                    Note: you sell in dollar only
+                    <textarea class="form-control my-3" cols="30" rows="10" placeholder="eBook Description"
+                        required></textarea>
+                    <div class="d-flex justify-content-between">
+                        <a href="/User'sPage/premium.html" class="btn btn-primary">Back</a>
+                        <button class="btn btn-primary">Upload eBook</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html>
